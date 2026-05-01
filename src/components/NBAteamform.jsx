@@ -47,8 +47,8 @@ const AlonteLeagueForm = () => {
         }
 
         try {
-            // This connects to your live Render backend
-            const response = await fetch("https://alonte-basketball-backend.onrender.com/submit", {
+            // UPDATED: Now pointing to your new league-1 backend
+            const response = await fetch("https://alonte-basketball-league-1.onrender.com/submit", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
